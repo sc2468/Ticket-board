@@ -2,7 +2,7 @@
 import './App.css';
 import { gqlClient } from './utilities/apolloClient';
 import { ApolloProvider } from '@apollo/client/react';
-import RootScreen from './screens/RootScreen';
+import RootScreen from './containers/RootScreen';
 
 
 function App() {
